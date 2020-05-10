@@ -29,7 +29,7 @@ class BeLogger {
     private Security $security;
 
     public function __construct(Security $security, ParameterBagInterface $parameterBag) {
-        $this->environment = $parameterBag->get('environment');
+        $this->environment = $parameterBag->get('env');
         $this->logger = new Logger('logBE');
         $this->security = $security;
     }
