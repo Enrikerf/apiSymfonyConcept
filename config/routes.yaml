@@ -1,0 +1,4 @@
+app:
+  resource: '../src/Framework/Controller/'
+  type:   annotation
+  prefix: /api
