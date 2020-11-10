@@ -16,7 +16,7 @@ class User  {
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
-     * @Groups({"public"})
+     * @Groups({"public"})a
      * @ORM\Column(type="integer")
      */
     private $id;

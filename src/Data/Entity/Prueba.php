@@ -8,7 +8,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
 
 
 /**
- * @ORM\Entity(repositoryClass="App\Data\Repository\PruebaRepository")
+ * @ORM\Entity(repositoryClass="App\Repository\PruebaRepository")
  * @ORM\HasLifecycleCallbacks()
  */
 class Prueba  {
